@@ -118,7 +118,7 @@ python neural_network.py [data folder] [epochs] [max error] [learn rate] [hidden
         learn_rate = float(argv[4])
         hidden_size = int(argv[5])
         #print(data_folder, epochs, cross_entropy, learn_rate, hidden_size)
-		print('Loading data from ', data_folder)
+        print('Loading data from ', data_folder)
         train_images, train_labels, test_images, test_labels = read_mnist_data(data_folder)
         print('Found', len(train_images), 'training images')
         print('Found', len(test_images), 'testing images')
